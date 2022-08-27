@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rectangle example</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500" height="500" ></canvas> 
+<script>
+
+  var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(100, 50);
+ctx.lineTo(300, 50);
+ctx.lineTo(300, 150);
+ctx.lineTo(230, 150);
+ctx.lineTo(230, 200);
+ctx.lineTo(250, 200);
+ctx.lineTo(203, 230);
+ctx.lineTo(155, 200);
+ctx.lineTo(175, 200);
+ctx.lineTo(175, 150);
+ctx.lineTo(100, 150);
+ctx.lineTo(100, 50);
+ ctx.closePath();
+
+
+</script>
+
+</body>
+</html>
